@@ -1,0 +1,223 @@
+* {
+    margin: 0
+}
+
+.speaker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.speaker__header{
+    background-image: url(Top_Banner_Background.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center -25px;
+}
+
+.speaker__header > img {
+    width: 40%;
+}
+
+.speaker__header1{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.speaker__header1 > span{
+    margin-right: 10px;
+}
+
+.speaker__header1 > img{
+    width: 225px;
+}
+
+.speaker__details {
+    display: flex;
+    background-color: #1F37C1;
+    width: 792px;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.speaker__details > img {
+    width: 160px;
+}
+
+.speaker__details1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.speaker__details1 > div {
+    margin-bottom: 5px;
+}
+
+.speaker__details1 > button {
+    margin-bottom: 5px;
+}
+
+.speaker__general{
+    width: 792px;
+    background-image: url(Bottom_Banner_Background_Square.jpg);
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.speaker__footer{
+    width: 792px;
+}
+
+.speaker__general > div {
+    width: 50%
+}
+
+.speaker__online {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: flex-start;
+    font-family: Montserrat;
+    height: 260px;
+    width: 460px;
+    font-size: 46px;
+    font-weight: 800;
+    letter-spacing: -0.68px;
+    line-height: 50px;
+}
+
+.speaker__online > div {
+    margin: 30px auto;
+}
+
+.speaker__network {
+    display: flex;
+    flex-direction: column;
+    height: 437px;
+    width: 460px;
+}
+
+.speaker__network > p {
+    margin-top: 20px;
+    color: #141B4D;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Montserrat SemiBold;
+    letter-spacing: -0.2px;
+    line-height: 25px;
+}
+
+.join-me {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.41px;
+    line-height: 30px;
+  }
+
+  .claire-goss {
+    
+    color: #FFFF00;
+    font-family: Montserrat;
+    font-size: 26px;
+    letter-spacing: -0.57px;
+    line-height: 31px;
+  }
+
+  .for-my-session {
+    
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.36px;
+    line-height: 20px;
+  }
+
+  .session-title-goes-h {
+    
+    color: #0FFFFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.36px;
+    line-height: 20px;
+  }
+
+  .at-the-test-qualit {
+    
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.36px;
+    line-height: 20px;
+  }
+
+  .online-16-sept-2-o-2-o {
+    
+    color: #81D742;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.36px;
+    line-height: 27px;
+  }
+
+  .register-free {
+    background-color: #ccff33;
+    color: #141B4D;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: -0.45px;
+    line-height: 20px;
+    text-align: center;
+    width: 50%;
+  }
+
+  button > a {
+      text-decoration: none;
+  }
+
+  .speaker__eventDetails {
+      display: flex;
+      width: 792px;
+  }
+
+  .speaker__eventDetails > * {
+      width: 50%
+  }
+
+  .speaker__eventDetails1 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .attendee__eventDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 30px;
+    padding-left: 50px;
+  }
+
+  .attendee__eventDetails > div {
+      margin-top: 10px;
+  }
+
+  .attendee__button > button{
+    margin-top: 78px;
+    font-size: 25px;
+    height: 60px;
+  }
